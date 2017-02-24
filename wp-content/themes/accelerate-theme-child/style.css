@@ -1,3 +1,4 @@
+
 /*
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-theme-child/
@@ -22,6 +23,11 @@
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
 }
 
 .recent-posts {
@@ -61,3 +67,52 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies */
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+ aside.case-study-sidebar {
+ 	float: left;
+ 	width: 314px;
+ 	margin: 0 40px 0 0;
+ }
+
+ div.case-study-images {
+ 	float: left;
+ 	width: 605px;
+ }
+
+ div.case-study-images img {
+ 	margin-bottom: 50px;
+ 	border: 1px solid #dddddd;
+ }
+
+ h5 {
+ 	font-size: 13px;
+ 	line-height: 0;
+ 	margin-top: 25px;
+ 	color: #7e7e7e;
+ }
+
+h6 {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
