@@ -25,9 +25,42 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+#masthead nav ul {
+	overflow: auto;
+}
+
 #masthead nav ul li {
 	float: left;
 	margin: 0 10px;
+}
+
+.featured-work h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.homepage-featured-work ul {
+
+}
+.individual-featured-work {
+	list-style-type: none;
+	padding-top: 25px;
+	margin-bottom: 110px;
+}
+
+.individual-featured-work li {
+	position: absolute;
+	text-align: center;
+}
+
+.individual-featured-work h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-align: center;
 }
 
 .recent-posts {
@@ -103,6 +136,9 @@ h6 {
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
+
+
+
 
 
 
