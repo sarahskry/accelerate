@@ -13,6 +13,13 @@
 
 @import url("../accelerate-theme/style.css");
 
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -34,27 +41,33 @@
 	margin: 0 10px;
 }
 
+/* Create some space between the Featured Work block on the front page and the Blog Post */
+
+.featured-work{
+	margin-bottom: 3.5em;
+}
+
 .featured-work h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: bold;
-	margin-top: -30px;
+	padding-bottom: 25px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
-.homepage-featured-work ul {
 
-}
+/* Give each list item a specific width and display them inline-block so that they sit next to each other */
+
 .individual-featured-work {
+	display: inline-block;
 	list-style-type: none;
-	padding-top: 25px;
-	margin-bottom: 110px;
+	margin-right: 3%;
+	width: 31%;
 }
 
-.individual-featured-work li {
-	position: absolute;
-	text-align: center;
+.individual-featured-work: last-of-type {
+	margin-right: 0;
 }
 
 .individual-featured-work h3 {
