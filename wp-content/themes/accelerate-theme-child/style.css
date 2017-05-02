@@ -150,6 +150,33 @@ h6 {
 	margin-bottom: 40px;
 }
 
+/* Contact Us page */
+
+div#primary.site-content {
+	width: 670px;
+}
+
+.nf-form-title h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+div .nf-field-element {
+	text-align: right;
+}
+
+#nf-field-4 {
+	background-color: #45ac9d;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	height: 50px;
+	width: 175px;
+}
+
+
+
+
+
+
 
 
 
