@@ -172,6 +172,37 @@ div .nf-field-element {
 	width: 175px;
 }
 
+/*About page */
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 350px;
+    margin-top: -5px;
+}
+
+.homepage-hero {
+	text-align: center;
+}
+
+.homepage-hero h3 {
+	color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px 200px;
+    padding-top: 75px;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+
 
 
 
