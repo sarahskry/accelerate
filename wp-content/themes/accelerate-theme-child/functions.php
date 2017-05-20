@@ -35,20 +35,21 @@ function create_custom_post_types() {
                 'singular_name' => __( 'Case Study' )
             ),
             'public' => true,
-            'has_archive' => true,
+            'has_archive' => false,
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
 
-    register_post_type('our_services',
+    register_post_type( 'our_services',
         array(
             'labels' => array(
                 'name' => __( 'Our Services' ),
                 'singular_name' => __( 'Service' )
             ),
             'public' => true,
-            'has_archive' => true,
+            'has_archive' => false,
             'rewrite' => array( 'slug' => 'our-services'),
+            'supports' => array ('title', 'editor', 'page-attributes') //So it's possible to sort by menu order
         )
     );
 }
