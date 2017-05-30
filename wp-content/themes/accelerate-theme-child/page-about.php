@@ -69,7 +69,6 @@ get_header(); ?>
 				<div class="pre-footer">
 		      	<h2><?php echo $call_to_action; ?></h2>
 		      	<div class="cta-button">
-		      	
 		      	<h3><a href="<?php echo $contact_us; ?>">Contact Us</a></h3>
 		      	</div>
 		      	</div>
