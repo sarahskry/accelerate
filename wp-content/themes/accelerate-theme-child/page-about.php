@@ -33,7 +33,7 @@ get_header(); ?>
 		      	<?php echo $services_blurb; ?>
 		    </div>
 
-		<section class="individual-services">
+		<section class="services">
 		      	<?php query_posts('post_type=our_services&orderby=menu_order&order=ASC'); ?>
 		      	<?php while ( have_posts() ) : the_post(); 
 		       		$description = get_field("description");
@@ -43,11 +43,11 @@ get_header(); ?>
 		      		?>
 
 		  		<div class="individual-service">
-		        <figure class="service-image <?php echo $alignment; ?>">
+		  		<figure class="service-image <?php echo $alignment; ?>">
 		        <?php if($service_image) { ?>
 		        <?php echo wp_get_attachment_image ( $service_image, $size ); ?>
 		        <?php } ?>
-		        </figure>
+				</figure>
 
 			<article class="service-description">
 					<h2><?php the_title(); ?></h2>
@@ -60,21 +60,24 @@ get_header(); ?>
 		</section>
 
 		<section class="call-to-action">
-			
 			<?php query_posts('pagename=about'); ?>
 			<?php while ( have_posts() ) : the_post();
 				$call_to_action = get_field("call_to_action");
 				$contact_us = get_field("contact_us");
 				?>
-		</section>
+		
+				<div class="pre-footer">
+		      	<h2><?php echo $call_to_action; ?></h2>
+		      	<div class="cta-button">
+		      	
+		      	<h3><a href="<?php echo $contact_us; ?>">Contact Us</a></h3>
+		      	</div>
+		      	</div>
+
 			<?php endwhile; //end of the loop. ?>
 		    <?php wp_reset_query(); ?>
 
-		   		<div class="pre-footer">
-		      	<h2><?php echo $call_to_action; ?></h2>
-		      	<?php echo $contact_us; ?>
-		      	</div>
-
+		</section>
 		</div>
 
 

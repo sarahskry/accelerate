@@ -195,6 +195,67 @@ div .nf-field-element {
     letter-spacing: 0.03em;
 }
 
+.services-blurb {
+	text-align: center;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.services-blurb h6 {
+	margin-top: 55px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.individual-service {
+	overflow: auto;
+	margin-top: 5%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+figure.service-image.left {
+	float: left;
+	margin-right: 5%;
+	margin-top: 3%;
+	width: 25%;
+}
+
+figure.service-image.right {
+	float: right;
+	margin-left: 5%;
+	margin-top: 3%;
+	width: 25%;
+}
+
+.service-description {
+	float: left;
+	width: 70%;
+}
+
+div.pre-footer {
+	width: 38%;
+}
+
+.call-to-action {
+	border-top: 1px dotted #d6d6d6;
+	margin-top: 5%;
+}
+
+.cta-button h3{
+	    background-color: #45ac9d;
+	    color: #ffffff;
+	    height: 50px;
+	    width: 175px;
+	    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
