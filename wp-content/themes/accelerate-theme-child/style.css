@@ -233,22 +233,35 @@ figure.service-image.right {
 	width: 70%;
 }
 
-div.pre-footer {
-	width: 38%;
+.pre-footer 
+h2, .button {
+	display: inline-block;
+	margin-bottom: 3%;
+}
+
+.pre-footer h3 {
+	float: right;
+	width: 40%;
+	margin-top: 47px;
+}
+
+.pre-footer 
+h2 {
+	width: 40%;
+	margin-left: 18%;
+	margin-top: 7%;
+}
+
+.button {
+	width: 33%;
 }
 
 .call-to-action {
 	border-top: 1px dotted #d6d6d6;
-	margin-top: 5%;
+	margin-top: 8%;
 }
+ 
 
-.cta-button h3{
-	    background-color: #45ac9d;
-	    color: #ffffff;
-	    height: 50px;
-	    width: 175px;
-	    text-align: center;
-}
 
 
 
