@@ -68,7 +68,7 @@ get_header(); ?>
 		
 				<div class="pre-footer">
 		      	<h2><?php echo $call_to_action; ?></h2>
-		      	<h3><a class="button" href="<?php echo esc_url(home_url()); ?>/contact-us">Contact Us</a></h3>
+		      	<h3><a class="cta-button" href="<?php echo esc_url(home_url()); ?>/contact-us">Contact Us</a></h3>
 		      	</div>
 		      	</div>
 
