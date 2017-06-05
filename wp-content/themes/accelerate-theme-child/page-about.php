@@ -6,16 +6,17 @@ Template Post Type: page
 
 get_header(); ?>
 
-<section class="about-page">
-	<div class="site-content">
-		<?php while ( have_posts() ) : the_post(); ?>
-			<div class='homepage-hero-about'>
-				<?php the_content(); ?>
-			</div>
-		<?php endwhile; // end of the loop. ?>
-	</div><!-- .site-content -->
-</section><!-- .about-page -->
-<div class="site-content"> 
+	<section class="about-page">
+		<div class="site-content">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class='homepage-hero-about'>
+					<?php the_content(); ?>
+				</div>
+			<?php endwhile; // end of the loop. ?>
+		</div><!-- .site-content -->
+	</section><!-- .about-page -->
+
+	<div class="site-content"> 
 
 		<section class="services-description">
 			
@@ -25,6 +26,7 @@ get_header(); ?>
 				$services_blurb = get_field("services_blurb");
 				?>
 		</section>
+
 			<?php endwhile; //end of the loop. ?>
 		    <?php wp_reset_query(); ?>
 
@@ -60,16 +62,14 @@ get_header(); ?>
 		</section>
 
 		<section class="call-to-action">
-			<?php query_posts('pagename=about'); ?>
 			<?php while ( have_posts() ) : the_post();
 				$call_to_action = get_field("call_to_action");
 				$contact_us = get_field("contact_us");
 				?>
 		
 				<div class="pre-footer">
-		      	<h2><?php echo $call_to_action; ?></h2>
-		      	<h3><a class="cta-button" href="<?php echo esc_url(home_url()); ?>/contact-us">Contact Us</a></h3>
-		      	</div>
+		      	<h2 class="button-text"><?php echo $call_to_action; ?></h2>
+		      	<h3 class="cta-button"><a class="button" href="<?php echo esc_url(home_url()); ?>/contact-us">Contact Us</a></h3>
 		      	</div>
 
 			<?php endwhile; //end of the loop. ?>

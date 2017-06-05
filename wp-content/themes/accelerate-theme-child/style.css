@@ -233,29 +233,18 @@ figure.service-image.right {
 	width: 70%;
 }
 
-.pre-footer h2, .cta-button {
+.pre-footer h2, h3.cta-button {
 	display: inline-block;
 	margin-bottom: 3%;
 }
-
-/*.pre-footer h3 {
-	float: right;
-	width: 40%;
-	margin-top: 47px;
-}*/
 
 .pre-footer {
 	margin-top: 1.5em;
 	text-align: center;
 }
 
-.pre-footer h2 {
-	width: 40%;
-	padding-right: 2em;
-}
-
-.cta-button {
-	width: 33%;
+h3.cta-button {
+	width: 30%;
 }
 
 .call-to-action {
