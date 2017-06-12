@@ -79,6 +79,7 @@ img {
 .recent-posts {
 	overflow: hidden;
 }
+
 .blog-post {
 	width: 50%;
 	padding-right: 50px;
@@ -251,6 +252,27 @@ h3.cta-button {
 	border-top: 1px dotted #d6d6d6;
 	margin-top: 8%;
 }
+
+/* 404 Page */
+
+.text-container {
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+
+.fun-image{
+	float: left;
+}
+
+section.entry.entry-single span{
+	color: #45ac9d;
+}
+
+.entry-single h2 {
+	color: #45ac9d;
+}
+
+
  
 
 
