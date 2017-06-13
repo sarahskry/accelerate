@@ -256,12 +256,18 @@ h3.cta-button {
 /* 404 Page */
 
 .text-container {
+    float: left;
     margin-top: 10%;
-    margin-bottom: 40%;
+    width: 60%;
+    padding-bottom: 20%;
 }
 
 .fun-image{
 	float: left;
+	margin-top: 18%;
+	margin-right: 10%;
+	width: 30%;
+	padding-bottom: 20%%;
 }
 
 section.entry.entry-single span{
