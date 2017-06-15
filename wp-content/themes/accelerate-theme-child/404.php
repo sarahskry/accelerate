@@ -12,7 +12,7 @@ get_header();
 		<div id="content" role="main">
 
 			<div class="fun-image">
-		<img src="http://localhost:8888/accelerate-skillcrush/wp-content/uploads/2017/06/happy-blue-robot-e1497303553915.png" alt="robot">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/robot.png" alt="robot">
 		</div>
 		</div>
 
