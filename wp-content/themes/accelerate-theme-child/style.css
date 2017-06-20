@@ -83,7 +83,7 @@ img {
 
 .blog-post {
 	width: 45%;
-	padding-right: 50px;
+	padding-right: 10%;
 	float: left;
 }
 
@@ -118,10 +118,9 @@ img {
 
 /* Simple Twitter Tweets */
 
-.recent-tweets {
-	width: 50%;
+.simple-twitter-tweets {
+	width: 45%;
 	float: right;
-	margin-top: -25%;
 }
 
 .recent-tweets a {
@@ -140,6 +139,13 @@ img {
 	margin-top: 0;
 }
 
+/* You can use a pseudo class to get the twitter handle to appear
+like this:
+
+#secondary .widget-title:after{
+   content: "@Accelerate";
+*/
+
 .widget-title {
 	font-size: 24px;
 	color: #000000;
@@ -147,8 +153,8 @@ img {
 }
 
 .widget li {
-	margin-left: -1.3em;
 	text-decoration: none;
+	margin-left: -1.3em;
 }
 
 aside#pi_simpletwittertweets-2 {
@@ -161,6 +167,10 @@ aside#pi_simpletwittertweets-2 li a {
 	text-decoration: none;
 }
 
+span.stt-em {
+    display: none;
+}
+
 a.follow-us-link {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -168,6 +178,7 @@ a.follow-us-link {
     color: #45ac9d;
     text-transform: uppercase;
     text-decoration: none;
+    border-bottom: 0;
 }
 
 /* Case Studies */
@@ -322,7 +333,7 @@ h3.cta-button {
 	margin-top: 18%;
 	margin-right: 10%;
 	width: 30%;
-	padding-bottom: 20%%;
+	padding-bottom: 20%;
 }
 
 section.entry.entry-single span{
