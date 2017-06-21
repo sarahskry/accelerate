@@ -344,6 +344,23 @@ section.entry.entry-single span{
 	color: #45ac9d;
 }
 
+/* Blog Page */
+
+#sign-up {
+	background-color: #45ac9d;
+	color: #ffffff;
+}
+
+input#searchsubmit {
+	margin-top: 1.5em;
+}
+
+#searchsubmit {
+	background-color: #45ac9d;
+	color: #ffffff;
+}
+
+
 
  
 
